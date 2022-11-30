@@ -1,0 +1,111 @@
+{
+  "project_info": {
+    "project_number": "452785885508",
+    "firebase_url": "https://bambook-e679e.firebaseio.com",
+    "project_id": "bambook-e679e",
+    "storage_bucket": "bambook-e679e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:452785885508:android:9a9ee5ccf09ca46c",
+        "android_client_info": {
+          "package_name": "kg.foodbambook.bambook"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "452785885508-adbnlpem1rfnr2f779pl0n6msoq7vrcd.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "kg.foodbambook.bambook",
+            "certificate_hash": "a828b01fccc59e98c9a4020ead26adb608d6a1a8"
+          }
+        },
+        {
+          "client_id": "452785885508-g8mj6etrnrkdvcas4ddghicfo8ik8vor.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "kg.foodbambook.bambook",
+            "certificate_hash": "56b2ee9e292b3c3702ea9faffdfa720c45f63f0b"
+          }
+        },
+        {
+          "client_id": "452785885508-cshkdch7ai3947kvjond6kgpf740uu9u.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "kg.foodbambook.bambook",
+            "certificate_hash": "82a28f357e3f96847206ad8e2ce67964801cf7a0"
+          }
+        },
+        {
+          "client_id": "452785885508-6eahsqaqk5o76a50i4jcbjiat92se9bp.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "kg.foodbambook.bambook",
+            "certificate_hash": "c9aafc50fa2452b8824dd141cfb6bf40f8b03175"
+          }
+        },
+        {
+          "client_id": "452785885508-9j6m2u8lp0q0jtv0mln1jt1fgnkr2fap.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "kg.foodbambook.bambook",
+            "certificate_hash": "4f6ce033eaec726d528df6ca8dcca9197efbb0f6"
+          }
+        },
+        {
+          "client_id": "452785885508-70cam4e41bnotjp61r47datucj8aeauv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "kg.foodbambook.bambook",
+            "certificate_hash": "1b99bbd329cdcd539cd06dee7d3f5140c00cfaeb"
+          }
+        },
+        {
+          "client_id": "452785885508-06d3lt2i8abe7eo106bar3tc8h07apqg.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "kg.foodbambook.bambook",
+            "certificate_hash": "87559dc63e990d4e1998df90108516e54eb2bf62"
+          }
+        },
+        {
+          "client_id": "452785885508-a8kfnh8ns9d8us07n6f0ts5563h4acst.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "kg.foodbambook.bambook",
+            "certificate_hash": "4718adeb804522f3cce7a9194b47641d199a9984"
+          }
+        },
+        {
+          "client_id": "452785885508-tb1u8peflaiafajm9rsgi6ojukg6v7nl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD1EFtaGe29yvzAKWcBC68-rZLGTGTRG6c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "452785885508-5rai6ikpoko8paj3r2oqqgcddsbv17b3.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "452785885508-o3k09598gk8578lb3h6ejf5ejs0j1lv4.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "kg.sunrise.bambook"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

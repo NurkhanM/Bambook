@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto" android:id="@+id/contacts"
+    app:startDestination="@id/contactFragment">
+
+    <fragment
+        android:id="@+id/contactFragment"
+        android:name="kg.foodbambook.bambook.ui.main.contacts.ContactFragment"
+        android:label="ContactFragment"
+        tools:layout="@layout/fragment_contact"
+        />
+</navigation>

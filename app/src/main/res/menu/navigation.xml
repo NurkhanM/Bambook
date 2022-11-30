@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/menu"
+        android:icon="@drawable/ic_menu"
+        android:contentDescription="@string/menu"
+        android:title="@string/menu" />
+
+
+    <item
+        android:id="@+id/basket"
+        android:icon="@drawable/ic_caart"
+        android:contentDescription="@string/basket"
+        android:title="@string/basket" />
+
+    <item
+        android:id="@+id/profile"
+        android:icon="@drawable/ic_user"
+        android:contentDescription="@string/profile"
+        android:title="@string/profile" />
+
+    <item
+        android:id="@+id/discount"
+        android:icon="@drawable/ic_discount"
+        android:contentDescription="@string/discounts"
+        android:title="@string/discounts" />
+
+    <item
+        android:id="@+id/contacts"
+        android:icon="@drawable/ic_customer_service"
+        android:contentDescription="@string/contacts"
+        android:title="@string/contacts" />
+
+
+</menu>

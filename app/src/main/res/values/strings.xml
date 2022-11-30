@@ -1,0 +1,51 @@
+<resources>
+    <string name="app_name">Bambook</string>
+
+    <string name="price_som">%1$s сом</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="changes">Сдача с суммы:</string>
+    <string name="courier_with_pos">К вам будет отправлен курьер с POS-терминалом</string>
+    <string name="number_elsom">Номер для перевода: %1$s</string>
+    <string name="number_balans">Кошелек для пополнения: %1$s</string>
+
+    <string name="total_sum">Итого: %1$,.2f сом</string>
+    <string name="for_payment">К оплате: %1$,.2f сом</string>
+
+
+    <string name="error_message_bad_internet_connection">Нет подключения к интернету\nПожалуйста проверьте подключение</string>
+    <string name="error_message_converting_failed">Convert issue :(</string>
+    <string name="error_message_no_matches_were_found_for_request">По запросу \"%1$s\" ничего не найдено</string>
+    <string name="work_time">Время работы: %1$s &#8211; %2$s</string>
+    <string name="discount_date">Акция действует до %1$s</string>
+    <string name="menu">Меню</string>
+    <string name="basket">Корзина</string>
+    <string name="profile">Профиль</string>
+    <string name="discounts">Акции</string>
+    <string name="contacts">Контакты</string>
+    <string name="name_placeholder">Ваше имя</string>
+    <string name="add_to_basket">В корзину</string>
+    <string name="skip_auth">Войти без авторизации</string>
+    <string name="name">Имя</string>
+    <string name="hint_phone_number">Номер телефона</string>
+    <string name="hint_addresss">Улица</string>
+    <string name="hint_home">Дом</string>
+    <string name="hint_flat">Квартира</string>
+    <string name="hint_password">Пароль</string>
+    <string name="save">Сохранить</string>
+    <string name="sign_out">Выйти</string>
+    <string name="order_history">История заказов</string>
+    <string name="change_password">Сменить пароль</string>
+    <string name="history_date">Заказ от %1$s</string>
+    <string name="pref_previously_started">previously_started</string>
+    <string name="update">Обновление</string>
+    <string name="update_description">Доступно новое обновление.\nВерсия: %s</string>
+    <string name="update_button">Обновить</string>
+    <string name="slide_skip">Продолжить</string>
+    <string name="skip">Пропустить</string>
+
+    <string name="message_waiting_order_confirmation">Ожидайте подтверждения заказа.  Бонусы к зачислению: 25 баллов</string>
+
+    <string name="pattern_date">dd.MM.yyyy</string>
+</resources>

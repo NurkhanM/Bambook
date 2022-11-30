@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.main.contacts.ContactFragment"
+    >
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:background="@color/colorPrimary"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        xmlns:app="http://schemas.android.com/apk/res-auto">
+
+        <TextView
+            android:id="@+id/order"
+            android:text="Контакты"
+            style="@style/AppTheme.TitleTextViewStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <View
+            android:background="@color/colorPrimaryDark"
+            android:layout_width="0dp"
+            android:layout_height="3dp"
+            android:layout_margin="16dp"
+            app:layout_constraintEnd_toStartOf="@id/order"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@id/order"
+            app:layout_constraintBottom_toBottomOf="@id/order"
+            />
+
+        <View
+            android:background="@color/colorPrimaryDark"
+            android:layout_width="0dp"
+            android:layout_height="3dp"
+            android:layout_margin="16dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@id/order"
+            app:layout_constraintTop_toTopOf="@id/order"
+            app:layout_constraintBottom_toBottomOf="@id/order"
+            />
+
+        <TextView
+            android:id="@+id/contact_phones"
+            android:text="Контактные телефоны:"
+            android:textColor="@color/secondaryTextColor"
+            android:textStyle="bold"
+            android:gravity="center_horizontal"
+            android:layout_marginTop="22dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/order"
+            />
+
+        <TextView
+            android:id="@+id/phone_number"
+            android:text="0 312 88 00 58\n0 312 88 00 58\n0 312 88 00 58"
+            android:textColor="@color/secondaryTextColor"
+            android:gravity="center_horizontal"
+            android:layout_marginTop="22dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/contact_phones"
+            />
+        <ImageView
+            android:id="@+id/map"
+            android:src="@drawable/map"
+            android:scaleType="centerInside"
+            android:background="@drawable/background_frame_02"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="16dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/phone_number">
+
+        </ImageView>
+
+        <TextView
+            android:id="@+id/map_description"
+            android:text="Бесплатная доставка при заказе от 400 сом"
+            android:textColor="@color/colorPrimaryDark"
+            android:textStyle="bold"
+            android:gravity="center_horizontal"
+            android:layout_marginTop="16dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/map"
+            app:layout_constraintBottom_toBottomOf="@+id/work_time"
+            />
+
+        <TextView
+            android:id="@+id/work_time"
+            android:text="@string/work_time"
+            android:textColor="@color/secondaryTextColor"
+            android:textStyle="bold"
+            android:gravity="center_horizontal"
+            android:layout_marginBottom="16dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/map_description"
+            />
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/facebook_card"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:cardBackgroundColor="#3B5998"
+
+            android:layout_marginStart="16dp"
+            android:layout_marginBottom="16dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginTop="16dp"
+            app:cardCornerRadius="24dp"
+            android:elevation="4dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toStartOf="@id/insta_card"
+            app:layout_constraintTop_toBottomOf="@+id/work_time"
+            app:layout_constraintBottom_toBottomOf="parent"
+            >
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:padding="12dp"
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:src="@drawable/ic_facebook"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginStart="10dp"
+                    android:layout_width="24dp"
+                    android:layout_height="24dp" />
+
+                <TextView
+                    android:id="@+id/facebook_link"
+                    android:text="facebook"
+                    android:layout_marginStart="8dp"
+                    android:textColor="@color/primaryTextColor"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/insta_card"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            app:cardBackgroundColor="#E57EE5"
+            android:layout_marginStart="8dp"
+            android:layout_marginBottom="16dp"
+            android:layout_marginEnd="16dp"
+            app:cardCornerRadius="24dp"
+            android:elevation="4dp"
+            app:layout_constraintStart_toEndOf="@id/facebook_card"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/facebook_card"
+            >
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:padding="12dp"
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:src="@drawable/ic_insta"
+                    android:layout_gravity="center_vertical"
+                    android:layout_marginStart="10dp"
+                    android:layout_width="24dp"
+                    android:layout_height="24dp" />
+
+                <TextView
+                    android:id="@+id/instagram_link"
+                    tools:text="instagram"
+                    android:layout_marginStart="8dp"
+                    android:textColor="@color/primaryTextColor"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

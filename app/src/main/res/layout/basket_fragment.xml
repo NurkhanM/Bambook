@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/colorPrimary"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.main.basket.BasketFragment"
+    >
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="600dp"
+        android:orientation="vertical"
+        xmlns:app="http://schemas.android.com/apk/res-auto">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/cart_header"
+            android:background="@color/colorSecondary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            >
+
+            <TextView
+                android:id="@+id/cart"
+                android:text="Корзина"
+                style="@style/AppTheme.TitleTextViewStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="16dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <View
+                android:background="@color/colorPrimaryDark"
+                android:layout_width="0dp"
+                android:layout_height="3dp"
+                android:layout_margin="16dp"
+                app:layout_constraintEnd_toStartOf="@id/cart"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="@id/cart"
+                app:layout_constraintBottom_toBottomOf="@id/cart"
+                />
+
+            <View
+                android:background="@color/colorPrimaryDark"
+                android:layout_width="0dp"
+                android:layout_height="3dp"
+                android:layout_margin="16dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@id/cart"
+                app:layout_constraintTop_toTopOf="@id/cart"
+                app:layout_constraintBottom_toBottomOf="@id/cart"
+                />
+
+            <TextView
+                android:id="@+id/totalPrice"
+                tools:text="Итого: 4546 сом"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="8dp"
+                android:textColor="@color/white"
+                android:textSize="13sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/cart"
+                />
+
+            <TextView
+                android:id="@+id/for_payment"
+                tools:text="К оплате: 4500 сом"
+                android:layout_marginStart="16dp"
+                android:layout_marginBottom="8dp"
+                android:textColor="@color/white"
+                android:textSize="13sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/totalPrice"
+                app:layout_constraintBottom_toBottomOf="parent"
+                />
+
+            <EditText
+                android:id="@+id/bonus"
+                android:hint="0"
+                android:textSize="13sp"
+                android:textColor="@color/white"
+                android:background="@drawable/background_bonus"
+                android:gravity="center"
+                android:maxLength="4"
+                android:inputType="numberDecimal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/cart"
+                android:layout_marginEnd="16dp"
+                android:layout_marginTop="12dp"
+                />
+
+            <TextView
+
+                android:id="@+id/bonus_size"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Снять бонусов (0)"
+                android:textColor="@color/secondaryTextColor"
+                android:textSize="13sp"
+                android:textStyle="bold"
+                android:layout_marginTop="14dp"
+                android:layout_marginEnd="10dp"
+                app:layout_constraintTop_toBottomOf="@id/cart"
+                app:layout_constraintEnd_toStartOf="@id/bonus"
+                />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <TextView
+            android:id="@+id/empty_basket_text_view"
+            android:visibility="gone"
+            android:text="Ваша корзина пуста"
+            android:textSize="13sp"
+            android:textColor="@color/secondaryTextColor"
+            android:textStyle="bold"
+            android:layout_margin="16dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@+id/cart_header"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+
+            />
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            app:layout_constraintTop_toBottomOf="@+id/cart_header"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintBottom_toTopOf="@+id/orderButton"
+            app:layout_constraintVertical_bias="0.0"
+            />
+
+        <Button
+            android:id="@+id/orderButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="16dp"
+            android:background="@drawable/button_background_rounded"
+            android:text="Заказать"
+            android:textColor="@color/primaryTextColor"
+            android:textSize="14sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"/>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/menu"
+    app:startDestination="@id/categoryFragment">
+
+    <fragment
+        android:id="@+id/categoryFragment"
+        android:name="kg.foodbambook.bambook.ui.main.category.CategoryFragment"
+        android:label="category_fragment"
+        tools:layout="@layout/category_fragment" >
+        <argument
+            android:name="category_item"
+            app:argType="kg.foodbambook.bambook.model.Category"
+            app:nullable="true"
+            android:defaultValue="@null" />
+
+        <argument
+            android:name="search_text"
+            app:argType="string"
+            app:nullable="true"
+            android:defaultValue="@null"
+            />
+
+        <action
+            android:id="@+id/next_action"
+            app:destination="@+id/menuFragment" />
+        <action
+            android:id="@+id/action_categoryFragment_to_searchFragment"
+            app:destination="@id/searchFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/menuFragment"
+        android:name="kg.foodbambook.bambook.ui.main.menu.MenuFragment"
+        android:label="Menu Fragment"
+        tools:layout="@layout/sub_category_fragment" >
+
+        <argument
+            android:name="dish"
+            app:argType="kg.foodbambook.bambook.model.Dish"
+            app:nullable="false"/>
+
+        <argument
+            android:name="category_item"
+            app:argType="kg.foodbambook.bambook.model.Category"
+            app:nullable="true"
+            android:defaultValue="@null" />
+
+        <argument
+            android:name="search_text"
+            app:argType="string"
+            app:nullable="true"
+            android:defaultValue="@null"
+
+            />
+
+        <action
+            android:id="@+id/action_menuFragment_to_dishFragment"
+            app:destination="@id/dishFragment" />
+        <action
+            android:id="@+id/action_menuFragment_to_searchFragment"
+            app:destination="@id/searchFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/dishFragment"
+        android:name="kg.foodbambook.bambook.ui.main.category.DishFragment"
+        android:label="fragment_dish"
+        tools:layout="@layout/fragment_dish">
+
+        <argument
+            android:name="search_text"
+            app:argType="string"
+            app:nullable="true"
+            android:defaultValue="@null"
+            />
+        <action
+            android:id="@+id/action_dishFragment_to_searchFragment"
+            app:destination="@id/searchFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/searchFragment"
+        android:name="kg.foodbambook.bambook.ui.main.category.search.SearchFragment"
+        android:label="search_fragment"
+        tools:layout="@layout/search_fragment" >
+
+        <argument
+            android:name="dish"
+            app:argType="kg.foodbambook.bambook.model.Dish"
+            app:nullable="false"/>
+
+        <action
+            android:id="@+id/action_searchFragment_to_dishFragment"
+            app:destination="@id/dishFragment" />
+    </fragment>
+</navigation>
