@@ -12,7 +12,8 @@ class App: Application() {
 
     companion object {
 //        private const val BASE_URL = "http://46.229.215.95"
-        private const val BASE_URL = "https://www.bambook.kg"
+//        private const val BASE_URL = "https://www.bambook.kg"
+        private const val BASE_URL = "http://217.151.230.134"
         private const val TEST_URL = "http://bambook.sunrisetest.online"
 
         private var currentUrl = BASE_URL
