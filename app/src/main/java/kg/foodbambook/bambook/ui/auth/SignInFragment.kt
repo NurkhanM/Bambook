@@ -97,11 +97,12 @@ class SignInFragment : BaseFragment(), View.OnClickListener {
             R.id.sign_in_button -> {
                 if (!validate()) return
                 Log.e(TAG, "signInButtonCLicked")
-                viewModel.login(
-                   requireContext(),
-                    phoneEditText.text.toString(),
-                    passwordEditText.text.toString()
-                )
+                val phone = phoneEditText.text.toString().replace("(", "").replace(")", "").replace(" ", "")
+                Log.e(SignInViewModel.TAG, "onFailure pp = $phone")
+                Log.e(SignInViewModel.TAG, "onFailure t = ${passwordEditText.text}")
+                viewModel.login(requireContext(), phone, passwordEditText.text.toString())
+
+
             }
 
             R.id.cancel -> {

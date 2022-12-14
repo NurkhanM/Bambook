@@ -11,7 +11,6 @@ import kg.foodbambook.bambook.model.Token
 import kg.foodbambook.bambook.model.version.Version
 import kg.foodbambook.bambook.utils.RetrofitErrorUtils
 import kg.foodbambook.bambook.utils.ToastUtils
-import okhttp3.MediaType
 import okhttp3.MediaType.Companion.toMediaTypeOrNull
 import okhttp3.RequestBody
 import retrofit2.Call
@@ -22,7 +21,7 @@ import java.io.IOException
 class SignInViewModel() : ViewModel() {
 
     companion object {
-        private val TAG = SignInViewModel::class.java.simpleName
+        val TAG = SignInViewModel::class.java.simpleName
     }
 
     private val state = MutableLiveData<Int>()
@@ -45,7 +44,7 @@ class SignInViewModel() : ViewModel() {
         val passwordRB = RequestBody.create("text/plain".toMediaTypeOrNull(), password)
         App.getClient(context).login(phoneRB, passwordRB).enqueue(object : Callback<Token?> {
             override fun onFailure(call: Call<Token?>, t: Throwable) {
-                Log.e(TAG, "onFailure")
+                Log.e(TAG, "onFailure c = $call")
                 if (t is IOException) {
                     state.value = Constants.STATE_NO_INTERNET
                 } else {
