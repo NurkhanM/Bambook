@@ -84,7 +84,12 @@ class BasketFragment : Fragment(), View.OnClickListener {
         })
         viewModel.user.observe(requireActivity(), Observer {
             if (it != null) {
-                bonus_size.text = "Снять бонусы (${it.bonuses})"
+                try {
+                    bonus_size.text = "Снять бонусы (${it.bonuses})"
+                }catch (e: NullPointerException){
+                    Toast.makeText(requireContext(), "Бонусов еще нет", Toast.LENGTH_SHORT).show()
+                }
+
             }
         })
     }
