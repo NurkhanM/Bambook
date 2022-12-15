@@ -88,6 +88,8 @@ class BasketFragment : Fragment(), View.OnClickListener {
                     bonus_size.text = "Снять бонусы (${it.bonuses})"
                 }catch (e: NullPointerException){
                     Toast.makeText(requireContext(), "Бонусов еще нет", Toast.LENGTH_SHORT).show()
+                }catch (e: IllegalStateException){
+                    Toast.makeText(requireContext(), "Сервер не отвечает", Toast.LENGTH_SHORT).show()
                 }
 
             }
