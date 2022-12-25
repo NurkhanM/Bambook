@@ -8,7 +8,7 @@ import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import androidx.viewpager.widget.ViewPager
 import com.google.android.material.tabs.TabLayout
-import kg.foodbambook.bambook.R
+import kg.foodbambook.kg.R
 
 
 class AuthFragment : Fragment() {

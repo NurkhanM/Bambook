@@ -13,10 +13,10 @@ import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProviders
 import com.santalu.maskedittext.MaskEditText
 import kg.foodbambook.bambook.Constants
-import kg.foodbambook.bambook.R
+import kg.foodbambook.kg.R
 import kg.foodbambook.bambook.cursorToEnd
-import kg.foodbambook.bambook.ui.auth.resetpassword.RestorePassActivity
-import kg.foodbambook.bambook.ui.main.MainActivity
+import kg.foodbambook.kg.ui.auth.resetpassword.RestorePassActivity
+import kg.foodbambook.kg.ui.main.MainActivity
 import kg.foodbambook.bambook.ui.utils.KeyboardUtil.Companion.hideKeyboard
 import kg.foodbambook.bambook.utils.ToastUtils
 import kotlinx.android.synthetic.main.sign_in_fragment.*

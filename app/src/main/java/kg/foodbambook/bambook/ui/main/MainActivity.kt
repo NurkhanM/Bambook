@@ -1,4 +1,4 @@
-package kg.foodbambook.bambook.ui.main
+package kg.foodbambook.kg.ui.main
 
 import android.annotation.SuppressLint
 import android.app.AlertDialog
@@ -20,14 +20,15 @@ import androidx.navigation.NavController
 import com.bumptech.glide.Glide
 import com.google.android.material.bottomnavigation.BottomNavigationView
 import com.santalu.maskedittext.BuildConfig
-import kg.foodbambook.bambook.R
+import kg.foodbambook.kg.R
 import kg.foodbambook.bambook.SaveUserToken
 import kg.foodbambook.bambook.gone
 import kg.foodbambook.bambook.model.Promotion
 import kg.foodbambook.bambook.model.version.Version
 import kg.foodbambook.bambook.ui.auth.SignInViewModel
+import kg.foodbambook.bambook.ui.main.PromotionViewModel
 import kg.foodbambook.bambook.ui.setupWithNavController
-import kg.foodbambook.bambook.ui.splash.SplashScreenActivity
+import kg.foodbambook.kg.ui.splash.SplashScreenActivity
 import kotlinx.android.synthetic.main.layout_promotion.view.*
 import kotlinx.coroutines.*
 import kotlin.coroutines.CoroutineContext

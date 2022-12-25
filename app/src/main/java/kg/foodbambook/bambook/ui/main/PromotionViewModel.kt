@@ -4,7 +4,7 @@ import android.content.Context
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
-import kg.foodbambook.bambook.App
+import kg.foodbambook.kg.App
 import kg.foodbambook.bambook.ifSuccessful
 import kg.foodbambook.bambook.model.Promotion
 import retrofit2.Call

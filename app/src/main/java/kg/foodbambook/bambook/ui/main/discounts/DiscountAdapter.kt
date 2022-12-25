@@ -8,7 +8,7 @@ import android.view.ViewGroup
 import android.widget.ImageView
 import android.widget.TextView
 import com.bumptech.glide.Glide
-import kg.foodbambook.bambook.R
+import kg.foodbambook.kg.R
 import kg.foodbambook.bambook.model.Stock
 import kg.foodbambook.bambook.ui.utils.DateUtils
 import java.text.SimpleDateFormat

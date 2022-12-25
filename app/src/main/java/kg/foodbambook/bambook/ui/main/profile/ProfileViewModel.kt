@@ -8,7 +8,7 @@ import androidx.lifecycle.AndroidViewModel
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import com.google.firebase.auth.FirebaseAuth
-import kg.foodbambook.bambook.App
+import kg.foodbambook.kg.App
 import kg.foodbambook.bambook.SaveUserToken
 import kg.foodbambook.bambook.checkIfIsInternetProblemAndShowMessage
 import kg.foodbambook.bambook.model.ChangePasswordCredentials

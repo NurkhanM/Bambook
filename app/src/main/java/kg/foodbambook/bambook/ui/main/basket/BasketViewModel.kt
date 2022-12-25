@@ -6,7 +6,7 @@ import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import com.google.gson.Gson
-import kg.foodbambook.bambook.App
+import kg.foodbambook.kg.App
 import kg.foodbambook.bambook.checkIfIsInternetProblemAndShowMessage
 import kg.foodbambook.bambook.model.CheckWorkTimeResponse
 import kg.foodbambook.bambook.model.Dish

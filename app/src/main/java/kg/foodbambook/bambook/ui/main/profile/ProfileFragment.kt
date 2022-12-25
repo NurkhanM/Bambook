@@ -20,11 +20,11 @@ import androidx.lifecycle.Observer
 import androidx.navigation.fragment.findNavController
 import com.google.android.material.textfield.TextInputEditText
 
-import kg.foodbambook.bambook.R
+import kg.foodbambook.kg.R
 import kg.foodbambook.bambook.model.User
 import kg.foodbambook.bambook.model.UserDto
 import kg.foodbambook.bambook.show
-import kg.foodbambook.bambook.ui.main.MainActivity
+import kg.foodbambook.kg.ui.main.MainActivity
 import kg.foodbambook.bambook.validate
 import kotlinx.android.synthetic.main.profile_fragment.*
 

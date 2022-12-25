@@ -31,7 +31,7 @@ import androidx.navigation.NavController
 import androidx.navigation.fragment.NavHostFragment
 import androidx.navigation.navOptions
 import com.google.android.material.bottomnavigation.BottomNavigationView
-import kg.foodbambook.bambook.R
+import kg.foodbambook.kg.R
 
 /**
  * Manages the various graphs needed for a [BottomNavigationView].

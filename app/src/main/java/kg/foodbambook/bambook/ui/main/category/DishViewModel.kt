@@ -5,7 +5,7 @@ import android.util.Log
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
-import kg.foodbambook.bambook.App
+import kg.foodbambook.kg.App
 import kg.foodbambook.bambook.model.Dish
 import retrofit2.Call
 import retrofit2.Callback

@@ -9,11 +9,11 @@ import android.widget.Button
 import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
 import com.google.android.gms.common.util.DataUtils
-import kg.foodbambook.bambook.App
-import kg.foodbambook.bambook.R
+import kg.foodbambook.kg.App
+import kg.foodbambook.kg.R
 import kg.foodbambook.bambook.model.DishHistory
 import kg.foodbambook.bambook.model.OrderHistoryItem
-import kg.foodbambook.bambook.ui.main.MainActivity
+import kg.foodbambook.kg.ui.main.MainActivity
 import kg.foodbambook.bambook.ui.utils.DateUtils
 import java.lang.StringBuilder
 import java.text.SimpleDateFormat

@@ -1,6 +1,6 @@
 package kg.foodbambook.bambook.model
 
-import kg.foodbambook.bambook.R
+import kg.foodbambook.kg.R
 import java.io.Serializable
 
 data class Category(

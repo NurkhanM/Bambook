@@ -17,9 +17,9 @@ import androidx.lifecycle.ViewModelProviders
 import androidx.navigation.fragment.findNavController
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
-import kg.foodbambook.bambook.App
+import kg.foodbambook.kg.App
 import kg.foodbambook.bambook.Constants
-import kg.foodbambook.bambook.R
+import kg.foodbambook.kg.R
 import kg.foodbambook.bambook.utils.ToastUtils
 import kotlinx.android.synthetic.main.basket_fragment.*
 

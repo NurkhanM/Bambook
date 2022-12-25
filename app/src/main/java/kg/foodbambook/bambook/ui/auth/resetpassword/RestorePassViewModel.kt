@@ -15,6 +15,7 @@ import com.google.firebase.auth.PhoneAuthProvider
 import kg.foodbambook.bambook.*
 import kg.foodbambook.bambook.model.NumberCheck
 import kg.foodbambook.bambook.model.RestoredPasswordRequestBody
+import kg.foodbambook.kg.App
 import org.json.JSONObject
 import retrofit2.Call
 import retrofit2.Callback

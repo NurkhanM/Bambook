@@ -11,9 +11,9 @@ import android.widget.ImageView
 import android.widget.TextView
 import androidx.fragment.app.Fragment
 import androidx.navigation.fragment.findNavController
-import kg.foodbambook.bambook.App
+import kg.foodbambook.kg.App
 
-import kg.foodbambook.bambook.R
+import kg.foodbambook.kg.R
 import kg.foodbambook.bambook.model.Dish
 import kg.foodbambook.bambook.model.Category
 import kg.foodbambook.bambook.retrofit.BambookAPI

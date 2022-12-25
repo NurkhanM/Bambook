@@ -18,10 +18,10 @@ import kg.foodbambook.bambook.Constants.STATE_AUTH_CANCEL
 import kg.foodbambook.bambook.Constants.STATE_CODE_SENT
 import kg.foodbambook.bambook.Constants.STATE_NO_INTERNET
 
-import kg.foodbambook.bambook.R
+import kg.foodbambook.kg.R
 import kg.foodbambook.bambook.cursorToEnd
 import kg.foodbambook.bambook.toast
-import kg.foodbambook.bambook.ui.main.MainActivity
+import kg.foodbambook.kg.ui.main.MainActivity
 import kg.foodbambook.bambook.ui.utils.KeyboardUtil.Companion.hideKeyboard
 import kg.foodbambook.bambook.utils.ToastUtils
 import kotlinx.android.synthetic.main.sign_up_fragment.*

@@ -1,4 +1,4 @@
-package kg.foodbambook.bambook.fcm
+package kg.foodbambook.kg.fcm
 
 import android.app.Notification
 import android.app.NotificationChannel
@@ -12,8 +12,8 @@ import androidx.core.app.NotificationCompat
 import androidx.core.app.TaskStackBuilder
 import com.google.firebase.messaging.FirebaseMessagingService
 import com.google.firebase.messaging.RemoteMessage
-import kg.foodbambook.bambook.R
-import kg.foodbambook.bambook.ui.main.MainActivity
+import kg.foodbambook.kg.R
+import kg.foodbambook.kg.ui.main.MainActivity
 import java.util.*
 
 class FMService : FirebaseMessagingService() {

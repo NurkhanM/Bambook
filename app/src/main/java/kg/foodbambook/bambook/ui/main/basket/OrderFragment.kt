@@ -24,6 +24,8 @@ import kg.foodbambook.bambook.model.Contacts
 
 import kg.foodbambook.bambook.model.PayMethod
 import kg.foodbambook.bambook.model.User
+import kg.foodbambook.kg.App
+import kg.foodbambook.kg.R
 import kotlinx.android.synthetic.main.fragment_order.*
 import java.lang.NumberFormatException
 

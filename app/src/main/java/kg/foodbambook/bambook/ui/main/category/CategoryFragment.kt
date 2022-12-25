@@ -18,9 +18,9 @@ import androidx.navigation.Navigation
 import androidx.navigation.fragment.findNavController
 import androidx.recyclerview.widget.GridLayoutManager
 import androidx.viewpager.widget.ViewPager
-import kg.foodbambook.bambook.App
+import kg.foodbambook.kg.App
 
-import kg.foodbambook.bambook.R
+import kg.foodbambook.kg.R
 import kg.foodbambook.bambook.model.Category
 import kg.foodbambook.bambook.model.SliderImage
 import kg.foodbambook.bambook.retrofit.BambookAPI

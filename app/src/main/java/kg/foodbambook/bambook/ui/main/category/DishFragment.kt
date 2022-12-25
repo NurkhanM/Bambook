@@ -10,9 +10,9 @@ import android.widget.*
 import androidx.fragment.app.Fragment
 import androidx.navigation.fragment.findNavController
 import com.bumptech.glide.Glide
-import kg.foodbambook.bambook.App
+import kg.foodbambook.kg.App
 
-import kg.foodbambook.bambook.R
+import kg.foodbambook.kg.R
 import kg.foodbambook.bambook.model.Dish
 import kg.foodbambook.bambook.model.Garnish
 import kg.foodbambook.bambook.utils.ToastUtils

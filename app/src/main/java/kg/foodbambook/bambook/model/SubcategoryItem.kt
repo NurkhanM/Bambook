@@ -1,6 +1,6 @@
 package kg.foodbambook.bambook.model
 
-import kg.foodbambook.bambook.R
+import kg.foodbambook.kg.R
 
 data class SubcategoryItem(
     val image: Int,

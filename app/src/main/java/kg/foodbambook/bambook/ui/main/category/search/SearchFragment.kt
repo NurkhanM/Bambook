@@ -19,6 +19,8 @@ import kg.foodbambook.bambook.model.Category
 import kg.foodbambook.bambook.ui.OnItemClickListener
 import kg.foodbambook.bambook.ui.main.menu.CATEGORY_ITEM
 import kg.foodbambook.bambook.ui.main.menu.MenuAdapter
+import kg.foodbambook.kg.App
+import kg.foodbambook.kg.R
 import retrofit2.Call
 import retrofit2.Callback
 import retrofit2.Response

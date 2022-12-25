@@ -11,6 +11,7 @@ import kg.foodbambook.bambook.model.Token
 import kg.foodbambook.bambook.model.version.Version
 import kg.foodbambook.bambook.utils.RetrofitErrorUtils
 import kg.foodbambook.bambook.utils.ToastUtils
+import kg.foodbambook.kg.App
 import okhttp3.MediaType.Companion.toMediaTypeOrNull
 import okhttp3.RequestBody
 import retrofit2.Call

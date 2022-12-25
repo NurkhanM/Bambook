@@ -1,10 +1,11 @@
-package kg.foodbambook.bambook.ui.auth
+package kg.foodbambook.kg.ui.auth
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.google.android.material.tabs.TabLayout
 import androidx.viewpager.widget.ViewPager
-import kg.foodbambook.bambook.R
+import kg.foodbambook.bambook.ui.auth.MyPagerAdapter
+import kg.foodbambook.kg.R
 
 class AuthActivity : AppCompatActivity() {
 

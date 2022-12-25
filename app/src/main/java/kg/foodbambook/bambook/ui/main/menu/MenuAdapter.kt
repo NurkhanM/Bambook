@@ -9,8 +9,8 @@ import android.widget.Button
 import android.widget.ImageView
 import android.widget.TextView
 import com.bumptech.glide.Glide
-import kg.foodbambook.bambook.App
-import kg.foodbambook.bambook.R
+import kg.foodbambook.kg.App
+import kg.foodbambook.kg.R
 import kg.foodbambook.bambook.model.Dish
 import kg.foodbambook.bambook.ui.OnItemClickListener
 import kg.foodbambook.bambook.utils.ToastUtils

@@ -8,7 +8,7 @@ import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import com.google.gson.Gson
 import kg.docplus.fcm.FCMTokenUtils
-import kg.foodbambook.bambook.App
+import kg.foodbambook.kg.App
 import kg.foodbambook.bambook.Constants.KEY_ERROR
 import kg.foodbambook.bambook.checkIfIsInternetProblemAndShowMessage
 import kg.foodbambook.bambook.model.*

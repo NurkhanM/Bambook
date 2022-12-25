@@ -7,18 +7,18 @@
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:489026501612:android:01e72034e4566e22509ec9",
+        "mobilesdk_app_id": "1:489026501612:android:8f2bf475044dbb4c509ec9",
         "android_client_info": {
-          "package_name": "kg.foodbambook.bambook"
+          "package_name": "kg.foodbambook.kg"
         }
       },
       "oauth_client": [
         {
-          "client_id": "489026501612-5a3m504d7b7460jsa0hv0j1cpjvk6af1.apps.googleusercontent.com",
+          "client_id": "489026501612-8n3tato0ck3sqa529o9u0u5bn5pd6go1.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
-            "package_name": "kg.foodbambook.bambook",
-            "certificate_hash": "eb459a646a948c0287e90735ff3a2723b6ef8ffa"
+            "package_name": "kg.foodbambook.kg",
+            "certificate_hash": "c7465de599f0d85f9036dda29836a1dbdd00554f"
           }
         },
         {
@@ -37,6 +37,13 @@
             {
               "client_id": "489026501612-526cr9963rcc0cij3qlvbrqo3hf05bcn.apps.googleusercontent.com",
               "client_type": 3
+            },
+            {
+              "client_id": "489026501612-9rqtv9buui22qd31krct9tqp5g44298t.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "space.Atlassoft.Bambook"
+              }
             }
           ]
         }

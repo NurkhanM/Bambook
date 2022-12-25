@@ -8,9 +8,9 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.TextView
-import kg.foodbambook.bambook.App
+import kg.foodbambook.kg.App
 
-import kg.foodbambook.bambook.R
+import kg.foodbambook.kg.R
 import kg.foodbambook.bambook.model.Contacts
 import retrofit2.Call
 import retrofit2.Callback

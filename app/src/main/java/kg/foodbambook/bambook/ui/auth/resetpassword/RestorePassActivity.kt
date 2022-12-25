@@ -1,4 +1,4 @@
-package kg.foodbambook.bambook.ui.auth.resetpassword
+package kg.foodbambook.kg.ui.auth.resetpassword
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
@@ -10,11 +10,13 @@ import kg.foodbambook.bambook.Constants.STATE_CANCEL
 import kg.foodbambook.bambook.Constants.STATE_CODE_SENT
 import kg.foodbambook.bambook.Constants.STATE_NO_INTERNET
 import kg.foodbambook.bambook.Constants.STATE_NUMBER_VERIFIED
+import kg.foodbambook.bambook.ui.auth.resetpassword.RestorePassViewModel
+import kg.foodbambook.kg.R
 import kotlinx.android.synthetic.main.activity_restore_pass.*
 
 class RestorePassActivity : AppCompatActivity(), View.OnClickListener {
 
-    private lateinit var  mViewModel:RestorePassViewModel
+    private lateinit var  mViewModel: RestorePassViewModel
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_restore_pass)

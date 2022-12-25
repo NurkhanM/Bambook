@@ -7,9 +7,9 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
-import kg.foodbambook.bambook.App
+import kg.foodbambook.kg.App
 
-import kg.foodbambook.bambook.R
+import kg.foodbambook.kg.R
 import kg.foodbambook.bambook.checkIfIsInternetProblemAndShowMessage
 import kg.foodbambook.bambook.model.OrderHistoryItem
 import retrofit2.Call
